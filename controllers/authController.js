@@ -11,10 +11,20 @@ function issueTokens(res, userId) {
   const refreshTtlMs = refreshTtlDays * 24 * 60 * 60 * 1000;
   const refreshToken = crypto.randomBytes(48).toString('hex');
   saveRefreshToken(refreshToken, userId.toString(), refreshTtlMs);
+
+  // Allow env override for cookie attributes to enable cross-site (e.g., Netlify -> Render) if needed.
+  // SAME_SITE_REFRESH can be: lax | strict | none (case-insensitive)
+  const sameSiteRaw = (process.env.SAME_SITE_REFRESH || 'lax').toLowerCase();
+  let sameSiteOpt = 'lax';
+  if (['lax','strict','none'].includes(sameSiteRaw)) sameSiteOpt = sameSiteRaw;
+  // If SameSite=None, cookie must be Secure in modern browsers; allow force secure override
+  const forceSecure = ['1','true','yes','on'].includes(String(process.env.COOKIE_SECURE_FORCE || '').toLowerCase());
+  const secure = forceSecure || process.env.NODE_ENV === 'production' || sameSiteOpt === 'none';
+
   res.cookie('rt', refreshToken, {
     httpOnly: true,
-    secure: process.env.NODE_ENV === 'production',
-    sameSite: 'lax',
+    secure,
+    sameSite: sameSiteOpt === 'none' ? 'none' : sameSiteOpt, // explicit 'none'
     maxAge: refreshTtlMs,
     path: '/api/auth'
   });
