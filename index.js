@@ -100,7 +100,7 @@ const defaultAllowedOrigins = [
   'http://127.0.0.1:3000',
   'https://relaxed-cucurucho-360448.netlify.app',
   // Self origin (Render) – harmless for health checks and internal tools
-  'https://leohol.onrender.com'
+  'https://protrust-958a.onrender.com'
 ];
 
 // Allow override via env (comma-separated list)
@@ -131,8 +131,8 @@ const corsOptions = {
   },
   methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept'],
-  // We use Authorization header (no cookies); credentials not required. Keep false so ACAO can be '*'.
-  credentials: false,
+  // If REFRESH cookies must cross-site, allow credentials via env ENABLE_CORS_CREDENTIALS=1
+  credentials: ['1','true','yes','on'].includes(String(process.env.ENABLE_CORS_CREDENTIALS || '').toLowerCase()),
   optionsSuccessStatus: 204
 };
 
