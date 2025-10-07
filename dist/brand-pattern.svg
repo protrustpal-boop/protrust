@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+  <!-- Subtle grid / dot hybrid pattern -->
+  <rect width="60" height="60" fill="white"/>
+  <g stroke="#e5e7eb" stroke-width="1">
+    <path d="M0 .5H60" opacity="0.35"/>
+    <path d="M0 30.5H60" opacity="0.35"/>
+    <path d="M0 59.5H60" opacity="0.35"/>
+    <path d="M.5 0V60" opacity="0.35"/>
+    <path d="M30.5 0V60" opacity="0.35"/>
+    <path d="M59.5 0V60" opacity="0.35"/>
+  </g>
+  <g fill="#d1d5db">
+    <circle cx="30" cy="30" r="1.5" />
+    <circle cx="0" cy="0" r="1.5" />
+    <circle cx="60" cy="60" r="1.5" />
+    <circle cx="60" cy="0" r="1.5" />
+    <circle cx="0" cy="60" r="1.5" />
+  </g>
+</svg>

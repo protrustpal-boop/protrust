@@ -1,0 +1,495 @@
+{
+  "navigation": {
+    "newIn": "New In",
+    "women": "Women",
+    "men": "Men",
+    "accessories": "Accessories",
+    "sale": "Sale",
+    "categories": "Categories",
+    "shopByCategory": "Shop by Category",
+    "viewAll": "View All",
+    "topRated": "Top Rated",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "signInRegister": "Sign In / Register"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "browseProducts": "Browse Products",
+    "orderSummary": "Order Summary",
+    "orderSummaryNote": "You can apply gift cards and choose payment method in next step.",
+    "steps": {
+      "shipping": "Shipping",
+      "payment": "Payment"
+    },
+    "shipping": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "country": "Country",
+      "countryValue": "Palestine (PS)",
+      "mobile": "Primary Mobile Number",
+      "secondaryMobile": "Secondary Mobile Number (Optional)",
+      "mobilePlaceholder": "7X XXXX XXX",
+      "mobileHint": "Format: 9-10 digit number without spaces or dashes",
+      "address": "Shipping Address",
+      "addressPlaceholder": "Building, Street, Area",
+      "city": "City",
+      "citySearchPlaceholder": "Search or select city...",
+      "selected": "Selected",
+      "other": "Other",
+      "enterCity": "Enter your city",
+      "continueToPayment": "Continue to Payment",
+      "errors": {
+        "selectCity": "Please select a city",
+        "enterCity": "Please enter your city"
+      }
+    },
+    "payment": {
+      "selectMethod": "Select Payment Method",
+      "methods": {
+        "card": "Credit Card",
+        "cod": "Cash on Delivery",
+        "paypal": "PayPal"
+      },
+      "card": {
+        "numberLabel": "Card Number",
+        "numberPlaceholder": "1234 5678 9012 3456",
+        "expiryLabel": "Expiry Date",
+        "expiryPlaceholder": "MM/YY",
+        "cvcLabel": "CVC",
+        "cvcPlaceholder": "123"
+      },
+      "cod": {
+        "note": "Pay with cash upon delivery. Our delivery partner will collect the payment when your order arrives."
+      },
+      "paypal": {
+        "disabled": "PayPal is disabled by admin.",
+        "notConfigured": "PayPal is not configured. Set VITE_PAYPAL_CLIENT_ID in your environment.",
+        "completed": "Payment completed",
+        "prompt": "Click \"Continue with PayPal\" to create your order and proceed.",
+        "creatingOrder": "Creating order…",
+        "continue": "Continue with PayPal"
+      },
+      "buttons": {
+        "back": "Back",
+        "processing": "Processing...",
+        "pay": "Pay",
+        "placeOrder": "Place Order"
+      },
+      "gift": {
+        "title": "Gift Card",
+        "placeholder": "Enter gift card code",
+        "enterCode": "Please enter a gift card code",
+        "check": "Check",
+        "checking": "Checking…",
+        "found": "Gift card found",
+        "inactive": "Gift card is {{status}}",
+        "notFound": "Gift card not found or invalid code",
+        "balance": "Balance",
+        "currency": "Currency",
+        "expiry": "Expiry",
+        "amountPlaceholder": "Amount to apply ({{currency}})",
+        "apply": "Apply",
+        "applying": "Applying…",
+        "remove": "Remove",
+        "applied": "Applied",
+        "appliedAmount": "Gift card amount set",
+        "enterValidAmount": "Enter a valid amount to apply",
+        "exceedsBalance": "Amount exceeds available balance",
+        "computeFailed": "Failed to compute amount",
+        "applyFailedAfter": "Gift card application failed after order creation"
+      },
+      "timeout": "Request timed out. Please try again.",
+      "orderPlaced": "Order placed successfully!",
+      "createOrderFailed": "Failed to create order"
+    }
+  },
+  "hero": {
+    "welcome": "Welcome to Eva Curves",
+    "subtitle": "Discover our latest collection of premium fashion items.",
+    "collection": "Collection",
+    "exploreLookbook": "Explore Lookbook",
+    "newSeason": "New Season",
+    "specialSpringCollection": "Special Spring Collection",
+    "shopNow": "Shop now",
+    "imageAlt": "Fashion model showcasing latest collection"
+  },
+  "common": {
+    "search": "Search",
+    "wishlist": "Wishlist",
+    "cart": "Shopping Cart",
+    "addToCart": "Add to Cart",
+    "reviews": "reviews",
+    "cartShort": "Cart",
+    "qty": "Qty",
+    "outOfStock": "Out of Stock",
+    "inStockCount": "{{count}} in stock",
+    "userDropdown": {
+      "orders": "Orders",
+      "reviews": "Reviews",
+      "paymentMethods": "Payment Methods",
+      "settings": "Settings",
+      "signOut": "Sign Out"
+    }
+  },
+  "cart": {
+    "added": "Added to cart",
+    "addFailed": "Failed to add to cart",
+    "title": "Shopping Cart",
+    "summary": {
+      "subtotal": "Subtotal",
+      "discount": "Discount",
+      "shipping": "Shipping",
+      "free": "Free",
+      "total": "Total",
+        "checkout": "Checkout",
+        "secureCheckout": "Secure checkout",
+        "city": "City",
+        "cityPlaceholder": "Enter city for shipping",
+        "zone": "Zone"
+    },
+    "coupon": {
+      "haveCode": "Have a coupon code?",
+      "placeholder": "Enter coupon code",
+      "apply": "Apply",
+      "applying": "Applying...",
+      "applied": "Coupon applied successfully!",
+      "invalid": "Invalid coupon code"
+    },
+    "empty": {
+      "title": "Your cart is empty",
+      "description": "Looks like you haven't added any items to your cart yet.",
+      "continueShopping": "Continue Shopping"
+    },
+    "item": {
+      "remove": "Remove from cart",
+      "increaseQty": "Increase quantity",
+      "decreaseQty": "Decrease quantity"
+    }
+  },
+  "reviews": {
+    "title": "Customer Reviews",
+    "writeReview": "Write a Review",
+    "basedOn": "Based on {{count}} reviews",
+    "averageRating": "Average Rating",
+    "ratingDistribution": "Rating Distribution",
+    "loginToReview": "Please log in to write a review",
+    "loginToHelpful": "Please log in to mark reviews as helpful",
+    "loginToReport": "Please log in to report reviews",
+    "helpful": "Helpful",
+    "report": "Report",
+    "verified": "Verified Purchase",
+    "reviewMarkedHelpful": "Review marked as helpful",
+    "reviewReported": "Review reported successfully",
+    "form": {
+      "yourRating": "Your Rating",
+      "selectRating": "Select a rating",
+      "writeComment": "Write your review",
+      "commentPlaceholder": "Share your experience with this product...",
+      "addPhotos": "Add Photos (Optional)",
+      "maxPhotos": "Maximum 5 photos allowed",
+      "fileSizeLimit": "{{fileName}} exceeds 10MB size limit",
+      "invalidFileType": "{{fileName}} is not an image file",
+      "submit": "Submit Review",
+      "cancel": "Cancel",
+      "submitting": "Submitting..."
+    },
+    "errors": {
+      "fetchFailed": "Failed to fetch reviews",
+      "submitFailed": "Failed to submit review",
+      "helpfulFailed": "Failed to mark review as helpful",
+      "reportFailed": "Failed to report review"
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Join Our Newsletter",
+      "subtitle": "Subscribe to get special offers, free giveaways, and exclusive deals.",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    },
+    "description": "Discover luxury fashion that combines timeless elegance with modern style.",
+    "address": "123 Fashion Street, NY 10001",
+    "phone": "+1 (555) 123-4567",
+    "email": "contact@evacurves.com",
+    "shop": "Shop",
+    "support": "Support",
+    "company": "Company",
+    "newArrivals": "New Arrivals",
+    "bestSellers": "Best Sellers",
+    "sale": "Sale",
+    "collections": "Collections",
+    "giftCards": "Gift Cards",
+    "contactUs": "Contact Us",
+    "faqs": "FAQs",
+    "shipping": "Shipping",
+    "returns": "Returns",
+    "sizeGuide": "Size Guide",
+    "aboutUs": "About Us",
+    "careers": "Careers",
+    "storeLocator": "Store Locator",
+    "sustainability": "Sustainability",
+    "press": "Press",
+    "rights": "All rights reserved."
+  },
+  "products": {
+    "tabs": {
+      "new": "New Products",
+      "best": "Best Sellers"
+    },
+    "seeMore": "See more",
+    "empty": "No products to show.",
+    "loadError": "Failed to load products"
+  },
+  "saleProducts": {
+    "title": "Sale Products",
+    "subtitle": "Discover amazing deals and discounts",
+    "loadError": "Failed to load sale products"
+  },
+  "brands": {
+    "title": "Our Brands",
+    "subtitle": "Trusted by leading brands worldwide",
+    "loadError": "Failed to load brands",
+    "loading": "Loading brands...",
+    "fallbackBrand": "Brand"
+  },
+  "profile": {
+    "title": "Profile Overview",
+    "subtitle": "View and manage your account information.",
+    "navigation": {
+      "profile": "Profile",
+      "orders": "Orders",
+      "wishlist": "Wishlist",
+      "reviews": "Reviews",
+      "payments": "Payment Methods",
+      "settings": "Settings"
+    },
+    "stats": {
+      "orders": "Orders",
+      "wishlist": "Wishlist",
+      "reviews": "Reviews"
+    },
+    "recentActivity": "Recent Activity",
+    "accountDetails": "Account Details",
+    "activity": {
+      "orderDelivered": "Order Delivered",
+      "orderDeliveredDesc": "Your order #{{orderNumber}} has been delivered",
+      "reviewPosted": "Review Posted",
+      "reviewPostedDesc": "You reviewed {{productName}}",
+      "timeAgo": {
+        "hoursAgo": "{{count}} hours ago",
+        "dayAgo": "{{count}} day ago",
+        "daysAgo": "{{count}} days ago"
+      }
+    },
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "memberSince": "Member Since"
+    },
+    "settings": {
+      "profilePicture": "Profile Picture",
+      "changeProfilePicture": "Change Profile Picture",
+      "uploadDescription": "Upload a new profile picture. JPG, PNG or GIF.",
+      "profileInformation": "Profile Information",
+      "changePassword": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm New Password",
+      "notifications": "Notifications",
+      "emailNotifications": "Email Notifications",
+      "orderUpdates": "Order Updates",
+      "promotions": "Promotions & Offers",
+      "reviews": "Review Reminders",
+      "updateProfile": "Update Profile",
+      "changePasswordBtn": "Change Password",
+      "uploading": "Uploading...",
+      "updating": "Updating..."
+    },
+    "messages": {
+      "profileUpdated": "Profile updated successfully",
+      "profileUpdateFailed": "Failed to update profile",
+      "profilePictureUpdated": "Profile picture updated successfully",
+      "profilePictureFailed": "Failed to update profile picture",
+      "passwordChanged": "Password changed successfully",
+      "passwordChangeFailed": "Failed to change password",
+      "passwordsNotMatch": "Passwords do not match",
+      "settingsUpdated": "Settings updated successfully",
+      "settingsFailed": "Failed to update settings"
+    }
+  },
+  "featured": {
+    "title": "Featured Collection",
+    "subtitle": "Discover our most sought-after pieces",
+    "descriptionFallback": "A timeless piece crafted with premium materials and attention to detail.",
+    "savePercent": "Save {{percent}}%",
+    "errors": {
+      "fetchFailed": "Failed to fetch featured products"
+    },
+    "features": {
+      "freeShipping": {
+        "title": "Free Shipping",
+        "subtitle": "On all orders over {{amount}}"
+      },
+      "easyReturns": {
+        "title": "Easy Returns",
+        "subtitle": "30-day return policy"
+      }
+    },
+    "related": {
+      "title": "You May Also Like",
+      "subtitle": "Based on your preferences and shopping history",
+      "errors": {
+        "fetchFailed": "Failed to fetch related products"
+      },
+      "prevAria": "Previous products",
+      "nextAria": "Next products"
+    }
+  },
+  "product": {
+    "notFound": "Product not found",
+    "badges": {
+      "new": "New",
+      "savePercent": "Save {{percent}}%"
+    },
+    "stock": {
+      "outOfStock": "Out of Stock",
+      "inStockCount": "{{count}} in stock",
+      "stockFor": "Stock for {{color}} / {{size}}:",
+      "na": "N/A"
+    },
+    "color": "Color",
+    "colorSelected": "{{color}} Selected",
+    "selectSize": "Please select a size",
+    "sizeGuide": "Size Guide",
+    "selectColor": "Please select a color"
+  },
+  "wishlist": {
+    "title": "Wishlist",
+    "myWishlist": "My Wishlist",
+    "tabs": {
+      "items": "Items",
+      "boards": "Boards"
+    },
+    "empty": {
+      "title": "Your wishlist is empty",
+      "description": "Save items you love to your wishlist and revisit them anytime.",
+      "page": "You currently have nothing saved to your Wishlist."
+    },
+    "actions": {
+      "shopNow": "Shop Now",
+      "remove": "Remove",
+      "addToCart": "Add to Cart"
+    },
+    "buttons": {
+      "add": "Add to Wishlist",
+      "remove": "Remove from Wishlist"
+    },
+    "toasts": {
+      "added": "Added to wishlist",
+      "removed": "Removed from wishlist",
+      "updateFailed": "Failed to update wishlist",
+      "loginRequired": "Please log in to add items to your wishlist"
+    }
+  },
+  "auth": {
+    "title": "Sign in to manage your account",
+    "heading": "Sign in",
+    "subheading": "Sign in to manage your account",
+    "haveAccount": "Don't have an account?",
+    "createAccountLink": "Create a new account",
+    "email": "Email address",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "signInButton": "Sign in",
+    "signingIn": "Signing in...",
+    "demoCredentials": "Demo credentials",
+    "demoEmail": "Email: admin@example.com",
+    "demoPassword": "Password: admin123",
+  "orContinueWith": "Or continue with",
+    "location": {
+      "blockedTitle": "Location Access Blocked",
+      "blockedMessage": "Location access has been blocked. Some features like automatic currency selection may not work properly.",
+      "enable": "Enable Location Access",
+      "prompt": "Please enable location services in your browser settings"
+    },
+    "legal": {
+      "lastUpdated": "Last updated: {{date}}",
+      "disclaimer": "This page provides general information and is not a substitute for professional legal advice.",
+      "contact": { "title": "Contact Us", "body": "If you have questions about these terms or our privacy practices, contact us at {{email}}." },
+      "privacy": {
+        "title": "Privacy Policy",
+        "intro": "This Privacy Policy describes how {{storeName}} collects, uses, discloses and safeguards your information when you use our services.",
+        "sections": {
+          "collection": { "title": "1. Information We Collect", "body": "We collect information you provide (name, email, shipping details) and limited technical data (browser, locale, approximate location) to operate and improve our service." },
+          "use": { "title": "2. How We Use Information", "items": { "perform": "Provide and maintain the Service", "orders": "Process and fulfill orders", "auth": "Authenticate and manage user accounts", "improve": "Improve performance and user experience", "emails": "Send transactional emails" } },
+          "google": { "title": "3. Google Authentication", "body": "When you sign in with Google we receive your name, email and profile image (if provided). We do not receive your password. You can revoke access in your Google account." },
+          "cookies": { "title": "4. Cookies & Local Storage", "body": "We use minimal cookies/local storage for session, preference and security purposes. Disabling them may affect functionality." },
+          "sharing": { "title": "5. Data Sharing", "body": "We do not sell personal data. We share necessary information only with processors (payments, shipping, infrastructure) required to operate the Service." },
+          "retention": { "title": "6. Data Retention", "body": "We retain data as long as needed for the purposes described or as required by law. You can request deletion subject to legal obligations." },
+          "children": { "title": "7. Children's Privacy", "body": "Our Service is not directed to children under 13 and we do not knowingly collect data from them." },
+          "security": { "title": "8. Security", "body": "We apply reasonable safeguards; however no method of transmission or storage is completely secure." },
+          "rights": { "title": "9. Your Rights", "body": "Depending on your jurisdiction you may request access, correction or deletion of your data." },
+          "transfers": { "title": "10. International Transfers", "body": "Data may be processed in other countries with appropriate safeguards." },
+          "thirdParty": { "title": "11. Third-Party Services", "body": "We may link to external services; their practices are governed by their own policies." },
+          "updates": { "title": "12. Changes to This Policy", "body": "We may update this policy; continued use after changes constitutes acceptance." }
+        }
+      },
+      "terms": {
+        "title": "Terms of Service",
+        "intro": "These Terms of Service (the 'Terms') govern your use of the {{storeName}} website and services.",
+        "sections": {
+          "agreement": { "title": "1. Agreement", "body": "By accessing or using the Service you accept these Terms." },
+          "eligibility": { "title": "2. Eligibility", "body": "You must be at least 13 years old or the legal age in your jurisdiction." },
+          "accounts": { "title": "3. Accounts", "body": "You are responsible for safeguarding your account credentials and activities." },
+          "orders": { "title": "4. Orders", "body": "All orders are subject to acceptance. We may refuse or cancel for suspected fraud or errors." },
+          "payments": { "title": "5. Payments", "body": "You agree to provide valid payment information and authorize charges for placed orders." },
+          "shipping": { "title": "6. Shipping", "body": "Delivery estimates are not guaranteed. Risk passes on delivery." },
+          "returns": { "title": "7. Returns & Refunds", "body": "Returns are governed by our posted return policy; some items may be final sale." },
+          "prohibited": { "title": "8. Prohibited Uses", "body": "You may not misuse the Service, attempt unauthorized access or engage in illegal activity." },
+          "ip": { "title": "9. Intellectual Property", "body": "All content is owned by us or licensors and protected by law." },
+          "disclaimers": { "title": "10. Disclaimers", "body": "The Service is provided 'as is' without warranties except as required by law." },
+          "liability": { "title": "11. Limitation of Liability", "body": "To the fullest extent permitted we are not liable for indirect or consequential damages." },
+          "indemnity": { "title": "12. Indemnification", "body": "You agree to indemnify us for claims arising from your misuse of the Service." },
+          "changes": { "title": "13. Changes to Terms", "body": "We may modify these Terms; material changes will be posted with a new date." },
+          "governing": { "title": "14. Governing Law", "body": "Applicable law is the jurisdiction where we are established unless otherwise required." },
+          "contact": { "title": "15. Contact", "body": "Questions about these Terms? Contact us." }
+        }
+      }
+    },
+    "errors": {
+      "loginFailed": "Login failed"
+    },
+    "register": {
+      "heading": "Create your account",
+      "name": "Full Name",
+      "email": "Email address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "passwordsNoMatch": "Passwords do not match",
+      "passwordTooShort": "Password must be at least 6 characters long",
+      "creating": "Creating account...",
+      "create": "Create account",
+      "backToLogin": "Back to login",
+      "success": "Registration successful!",
+      "failed": "Registration failed"
+    }
+  },
+  "admin": {
+    "legalStats": {
+      "title": "Legal Page Views",
+      "subtitle": "Aggregated, non-identifiable counts for Privacy Policy & Terms pages.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "all": "All Legal (any)",
+      "last24h": "Last 24h",
+      "refresh": "Refresh",
+      "updated": "Last updated",
+  "exportCsv": "Export CSV",
+  "exportJson": "Export JSON",
+      "footerNote": "Counts derived from hashed IP + User-Agent (no PII)."
+    }
+  }
+}

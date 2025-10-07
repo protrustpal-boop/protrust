@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <title>Loading…</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-store" />
+  <style>
+    body {margin:0;display:flex;align-items:center;justify-content:center;font-family:system-ui,sans-serif;background:#111827;color:#fff;height:100vh}
+    .c {text-align:center;max-width:320px}
+    h1 {font-size:1.1rem;margin:0 0 .75rem;font-weight:600}
+    p {font-size:.8rem;line-height:1.3;margin:.25rem 0;color:#d1d5db}
+    .spinner {width:42px;height:42px;border:4px solid #374151;border-top-color:#ec4899;border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 1rem}
+    @keyframes spin {to {transform:rotate(360deg)}}
+    .btn {background:#ec4899;color:#fff;border:none;padding:.6rem 1.1rem;border-radius:999px;font-size:.8rem;cursor:pointer}
+  </style>
+  <script>
+    (function(){
+      const target = '/' // could be changed later to localized path
+      // Detect TikTok and avoid service worker complexity by adding ?no-sw
+      const ua = navigator.userAgent.toLowerCase();
+      const isTikTok = ua.includes('tiktok');
+      const url = isTikTok ? target + (target.includes('?')?'&':'?') + 'no-sw=1' : target;
+      // Use replace() so launch page not kept in history
+      window.location.replace(url);
+      // Provide manual fallback button after 2s
+      setTimeout(()=>{
+        const btn = document.getElementById('fallback-btn');
+        if(btn) btn.onclick=()=>window.location.href=url;
+        document.body.classList.add('ready');
+      }, 1800);
+    })();
+  </script>
+</head>
+<body>
+  <div class="c">
+    <div class="spinner"></div>
+    <h1>جاري فتح المتجر…</h1>
+    <p>إذا لم يفتح المتجر تلقائياً اضغط الزر أدناه.</p>
+    <button id="fallback-btn" class="btn">فتح المتجر</button>
+  </div>
+</body>
+</html>

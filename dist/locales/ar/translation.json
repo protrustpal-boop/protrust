@@ -1,0 +1,481 @@
+{
+    "navigation": {
+      "newIn": "وصل حديثاً",
+      "women": "نساء",
+      "men": "رجال",
+      "accessories": "إكسسوارات",
+      "sale": "تخفيضات",
+      "categories": "الفئات",
+      "shopByCategory": "تسوقي حسب الفئة",
+      "viewAll": "عرض الكل",
+      "topRated": "الأعلى تقييماً",
+      "openMenu": "فتح القائمة",
+      "closeMenu": "إغلاق القائمة",
+      "signInRegister": "تسجيل الدخول / إنشاء حساب"
+    },
+    "checkout": {
+      "title": "إتمام الشراء",
+      "browseProducts": "تصفح المنتجات",
+      "orderSummary": "ملخص الطلب",
+      "orderSummaryNote": "يمكنك استخدام بطاقات الهدايا واختيار طريقة الدفع في الخطوة التالية.",
+      "steps": {
+        "shipping": "الشحن",
+        "payment": "الدفع"
+      },
+      "shipping": {
+        "firstName": "الاسم الأول",
+        "lastName": "اسم العائلة",
+        "email": "البريد الإلكتروني",
+        "country": "الدولة",
+        "countryValue": "فلسطين (PS)",
+        "mobile": "رقم الجوال الرئيسي",
+        "secondaryMobile": "رقم جوال إضافي (اختياري)",
+        "mobilePlaceholder": "7X XXXX XXX",
+        "mobileHint": "9-10 أرقام بدون مسافات أو شرطات",
+        "address": "عنوان الشحن",
+        "addressPlaceholder": "المبنى، الشارع، المنطقة",
+        "city": "المدينة",
+        "citySearchPlaceholder": "ابحث أو اختر المدينة...",
+        "selected": "تم الاختيار",
+        "other": "أخرى",
+        "enterCity": "أدخل مدينتك",
+        "continueToPayment": "المتابعة إلى الدفع",
+        "errors": {
+          "selectCity": "يرجى اختيار المدينة",
+          "enterCity": "يرجى إدخال مدينتك"
+        }
+      },
+      "payment": {
+        "selectMethod": "اختر طريقة الدفع",
+        "methods": {
+          "card": "بطاقة ائتمان",
+          "cod": "الدفع عند الاستلام",
+          "paypal": "PayPal"
+        },
+        "card": {
+          "numberLabel": "رقم البطاقة",
+          "numberPlaceholder": "1234 5678 9012 3456",
+          "expiryLabel": "تاريخ الانتهاء",
+          "expiryPlaceholder": "MM/YY",
+          "cvcLabel": "CVC",
+          "cvcPlaceholder": "123"
+        },
+        "cod": {
+          "note": "ادفع نقدًا عند التسليم. سيقوم شريك التوصيل بتحصيل المبلغ عند وصول طلبك."
+        },
+        "paypal": {
+          "disabled": "تم تعطيل PayPal من قبل المشرف.",
+          "notConfigured": "لم يتم إعداد PayPal. عيّن VITE_PAYPAL_CLIENT_ID في بيئتك.",
+          "completed": "اكتملت عملية الدفع",
+          "prompt": "انقر على \"المتابعة مع PayPal\" لإنشاء طلبك والمتابعة.",
+          "creatingOrder": "جارٍ إنشاء الطلب…",
+          "continue": "المتابعة مع PayPal"
+        },
+        "buttons": {
+          "back": "رجوع",
+          "processing": "جارٍ المعالجة...",
+          "pay": "ادفع",
+          "placeOrder": "تأكيد الطلب"
+        },
+        "gift": {
+          "title": "بطاقة هدية",
+          "placeholder": "أدخل رمز بطاقة الهدية",
+          "enterCode": "يرجى إدخال رمز بطاقة الهدية",
+          "check": "تحقق",
+          "checking": "جارٍ التحقق…",
+          "found": "تم العثور على بطاقة الهدية",
+          "inactive": "بطاقة الهدية {{status}}",
+          "notFound": "لم يتم العثور على بطاقة هدية أو رمز غير صالح",
+          "balance": "الرصيد",
+          "currency": "العملة",
+          "expiry": "تاريخ الانتهاء",
+          "amountPlaceholder": "المبلغ المطلوب تطبيقه ({{currency}})",
+          "apply": "تطبيق",
+          "applying": "جارٍ التطبيق…",
+          "remove": "إزالة",
+          "applied": "تم التطبيق",
+          "appliedAmount": "تم تعيين مبلغ بطاقة الهدية",
+          "enterValidAmount": "أدخل مبلغًا صالحًا للتطبيق",
+          "exceedsBalance": "يتجاوز المبلغ الرصيد المتاح",
+          "computeFailed": "فشل في حساب المبلغ",
+          "applyFailedAfter": "فشل تطبيق بطاقة الهدية بعد إنشاء الطلب"
+        },
+        "timeout": "انتهت مهلة الطلب. حاول مرة أخرى.",
+        "orderPlaced": "تم تقديم الطلب بنجاح!",
+        "createOrderFailed": "فشل في إنشاء الطلب"
+      }
+    },
+    "hero": {
+      "welcome": "مرحباً بكم في إيفا كيرفز",
+      "subtitle": "اكتشفي مجموعتنا الجديدة من الأزياء الفاخرة",
+      "collection": "مجموعة",
+      "exploreLookbook": "استكشفي دليل الإطلالات",
+      "newSeason": "الموسم الجديد",
+      "specialSpringCollection": "مجموعة الربيع الخاصة",
+      "shopNow": "تسوقي الآن",
+      "imageAlt": "عارضة أزياء تعرض آخر مجموعاتنا"
+    },
+    "common": {
+      "search": "بحث",
+      "wishlist": "المفضلة",
+      "cart": "سلة التسوق",
+      "addToCart": "أضف إلى السلة",
+      "reviews": "تقييمات",
+      "cartShort": "السلة",
+      "qty": "الكمية",
+      "outOfStock": "غير متوفر",
+      "inStockCount": "{{count}} متوفر",
+      "userDropdown": {
+        "orders": "الطلبات",
+        "reviews": "التقييمات",
+        "paymentMethods": "طرق الدفع",
+        "settings": "الإعدادات",
+        "signOut": "تسجيل الخروج"
+      },
+      "loading": "جاري التحميل..."
+    },
+    "cart": {
+      "added": "تمت الإضافة إلى السلة",
+      "addFailed": "فشل في الإضافة إلى السلة",
+      "title": "سلة التسوق",
+      "summary": {
+        "subtotal": "المجموع الفرعي",
+        "discount": "الخصم",
+        "shipping": "الشحن",
+        "free": "مجاني",
+        "total": "الإجمالي",
+        "checkout": "إتمام الشراء",
+        "secureCheckout": "عملية دفع آمنة",
+        "city": "المدينة",
+        "cityPlaceholder": "أدخل المدينة للشحن",
+        "zone": "المنطقة"
+      },
+      "coupon": {
+        "haveCode": "هل لديك كوبون خصم؟",
+        "placeholder": "أدخل رمز الكوبون",
+        "apply": "تطبيق",
+        "applying": "جاري التطبيق...",
+        "applied": "تم تطبيق الكوبون بنجاح!",
+        "invalid": "رمز كوبون غير صالح"
+      },
+      "empty": {
+        "title": "سلة التسوق فارغة",
+        "description": "يبدو أنك لم تضف أي عناصر إلى سلة التسوق بعد.",
+        "continueShopping": "متابعة التسوق"
+      },
+      "item": {
+        "remove": "إزالة من السلة",
+        "increaseQty": "زيادة الكمية",
+        "decreaseQty": "تقليل الكمية"
+      }
+    },
+    "reviews": {
+      "title": "تقييمات العملاء",
+      "writeReview": "كتابة تقييم",
+      "basedOn": "بناءً على {{count}} تقييم",
+      "averageRating": "متوسط التقييم",
+      "ratingDistribution": "توزيع التقييمات",
+      "loginToReview": "يرجى تسجيل الدخول لكتابة تقييم",
+      "loginToHelpful": "يرجى تسجيل الدخول لتحديد التقييمات كمفيدة",
+      "loginToReport": "يرجى تسجيل الدخول للإبلاغ عن التقييمات",
+      "helpful": "مفيد",
+      "report": "إبلاغ",
+      "verified": "شراء موثق",
+      "reviewMarkedHelpful": "تم تحديد التقييم كمفيد",
+      "reviewReported": "تم الإبلاغ عن التقييم بنجاح",
+      "form": {
+        "yourRating": "تقييمك",
+        "selectRating": "اختر تقييماً",
+        "writeComment": "اكتب تقييمك",
+        "commentPlaceholder": "شارك تجربتك مع هذا المنتج...",
+        "addPhotos": "إضافة صور (اختياري)",
+        "maxPhotos": "الحد الأقصى 5 صور",
+        "fileSizeLimit": "{{fileName}} يتجاوز حد الحجم 10 ميجابايت",
+        "invalidFileType": "{{fileName}} ليس ملف صورة",
+        "submit": "إرسال التقييم",
+        "cancel": "إلغاء",
+        "submitting": "جاري الإرسال..."
+      },
+      "errors": {
+        "fetchFailed": "فشل في جلب التقييمات",
+        "submitFailed": "فشل في إرسال التقييم",
+        "helpfulFailed": "فشل في تحديد التقييم كمفيد",
+        "reportFailed": "فشل في الإبلاغ عن التقييم"
+      }
+    },
+    "legal": {
+      "lastUpdated": "آخر تحديث: {{date}}",
+      "disclaimer": "هذه الصفحة لأغراض معلومات عامة وليست بديلاً عن استشارة قانونية متخصصة.",
+      "contact": { "title": "اتصل بنا", "body": "للاستفسار حول هذه السياسات أو الخصوصية تواصل معنا على {{email}}." },
+      "privacy": {
+        "title": "سياسة الخصوصية",
+        "intro": "توضح هذه السياسة كيف يقوم {{storeName}} بجمع واستخدام وحماية معلوماتك عند استخدامك لخدماتنا.",
+        "sections": {
+          "collection": { "title": "1. المعلومات التي نجمعها", "body": "نجمع البيانات التي تزودنا بها (الاسم، البريد، العنوان) وبيانات تقنية محدودة لتحسين الخدمة." },
+          "use": { "title": "2. استخدام المعلومات", "items": { "perform": "تقديم وتشغيل الخدمة", "orders": "معالجة الطلبات", "auth": "إدارة الحسابات", "improve": "تحسين الأداء والتجربة", "emails": "إرسال رسائل معاملات" } },
+          "google": { "title": "3. تسجيل الدخول بحساب Google", "body": "نستقبل اسمك وبريدك وصورة ملفك (إن وجدت) ولا نستقبل كلمة المرور." },
+          "cookies": { "title": "4. ملفات تعريف الارتباط", "body": "نستخدم ملفات محدودة للتفضيلات والأمان – التعطيل قد يؤثر على بعض الوظائف." },
+          "sharing": { "title": "5. مشاركة البيانات", "body": "لا نبيع بياناتك. نشارك فقط مع مزودي الخدمات الضروريين." },
+          "retention": { "title": "6. الاحتفاظ بالبيانات", "body": "نحتفظ بالبيانات للمدة اللازمة أو حسب القانون." },
+          "children": { "title": "7. خصوصية الأطفال", "body": "الخدمة غير موجهة لمن هم دون 13 عاماً." },
+          "security": { "title": "8. الأمان", "body": "نطبق تدابير معقولة لكن لا يوجد نظام آمن 100%." },
+          "rights": { "title": "9. حقوقك", "body": "قد تملك حقوق الوصول أو التصحيح أو الحذف وفقاً للتشريعات." },
+          "transfers": { "title": "10. النقل الدولي", "body": "قد تتم معالجة بياناتك في دول أخرى بضمانات مناسبة." },
+          "thirdParty": { "title": "11. خدمات خارجية", "body": "قد نُشير إلى مواقع خارجية لها سياساتها الخاصة." },
+          "updates": { "title": "12. تعديلات السياسة", "body": "قد نقوم بتحديث هذه السياسة ويعد استمرار الاستخدام قبولاً للتعديلات." }
+        }
+      },
+      "terms": {
+        "title": "شروط الخدمة",
+        "intro": "تنظم هذه الشروط استخدامك لموقع وخدمات {{storeName}}.",
+        "sections": {
+          "agreement": { "title": "1. الموافقة", "body": "باستخدامك للخدمة فإنك تقر بالشروط." },
+          "eligibility": { "title": "2. الأهلية", "body": "يجب أن لا يقل عمرك عن 13 عاماً أو الحد القانوني." },
+          "accounts": { "title": "3. الحسابات", "body": "أنت مسؤول عن سرية بيانات الدخول." },
+          "orders": { "title": "4. الطلبات", "body": "كل الطلبات خاضعة للقبول وقد تُلغى عند الاشتباه بالاحتيال." },
+          "payments": { "title": "5. المدفوعات", "body": "توافق على تزويد معلومات دفع صحيحة." },
+          "shipping": { "title": "6. الشحن", "body": "المواعيد تقديرية وقد تختلف." },
+          "returns": { "title": "7. الإرجاع", "body": "يخضع الإرجاع لسياسة الإرجاع المنشورة." },
+          "prohibited": { "title": "8. الاستخدامات المحظورة", "body": "يُمنع إساءة الاستخدام أو الوصول غير المصرّح." },
+          "ip": { "title": "9. الملكية الفكرية", "body": "المحتوى محمي بحقوق ملكية." },
+          "disclaimers": { "title": "10. إخلاء المسؤولية", "body": "الخدمة كما هي دون ضمانات إلا حيث يفرض القانون." },
+          "liability": { "title": "11. تحديد المسؤولية", "body": "لا نتحمل مسؤولية الأضرار غير المباشرة ضمن الحد المسموح." },
+          "indemnity": { "title": "12. التعويض", "body": "توافق على تعويضنا عن أي مطالبات ناجمة عن إساءة الاستخدام." },
+          "changes": { "title": "13. تعديلات الشروط", "body": "قد نعدّل الشروط وسيتم نشر التاريخ الجديد." },
+          "governing": { "title": "14. القانون الحاكم", "body": "يُطبق القانون المعمول به في نطاقنا القضائي." },
+          "contact": { "title": "15. الاتصال", "body": "للاستفسارات حول الشروط تواصل معنا." }
+        }
+      }
+    },
+    "footer": {
+      "newsletter": {
+        "title": "انضم إلى نشرتنا الإخبارية",
+        "subtitle": "اشترك للحصول على عروض خاصة وهدايا مجانية وصفقات حصرية.",
+        "placeholder": "أدخل بريدك الإلكتروني",
+        "subscribe": "اشتراك"
+      },
+      "description": "اكتشف الأزياء الفاخرة التي تجمع بين الأناقة الخالدة والأسلوب العصري.",
+      "address": "١٢٣ شارع الأزياء، نيويورك ١٠٠٠١",
+      "phone": "+١ (٥٥٥) ١٢٣-٤٥٦٧",
+      "email": "contact@evacurves.com",
+      "shop": "تسوق",
+      "support": "الدعم",
+      "company": "الشركة",
+      "newArrivals": "وصل حديثاً",
+      "bestSellers": "الأكثر مبيعاً",
+      "sale": "تخفيضات",
+      "collections": "المجموعات",
+      "giftCards": "بطاقات الهدايا",
+      "contactUs": "اتصل بنا",
+      "faqs": "الأسئلة الشائعة",
+      "shipping": "الشحن",
+      "returns": "الإرجاع",
+      "sizeGuide": "دليل المقاسات",
+      "aboutUs": "من نحن",
+      "careers": "الوظائف",
+      "storeLocator": "مواقع المتاجر",
+      "sustainability": "الاستدامة",
+      "press": "الأخبار",
+      "rights": "جميع الحقوق محفوظة."
+    },
+    "products": {
+      "tabs": {
+        "new": "منتجات جديدة",
+        "best": "الأكثر مبيعًا"
+      },
+      "seeMore": "عرض المزيد",
+      "empty": "لا توجد منتجات للعرض.",
+      "loadError": "فشل في تحميل المنتجات"
+    },
+    "saleProducts": {
+      "title": "منتجات التخفيضات",
+      "subtitle": "اكتشفي عروض وخصومات مذهلة",
+      "loadError": "فشل في تحميل منتجات التخفيضات"
+    },
+    "brands": {
+      "title": "علاماتنا التجارية",
+      "subtitle": "موثوقة من قبل العلامات التجارية الرائدة عالمياً",
+      "loadError": "فشل في تحميل العلامات التجارية",
+      "loading": "جاري تحميل العلامات التجارية...",
+      "fallbackBrand": "علامة تجارية"
+    },
+    "profile": {
+      "title": "نظرة عامة على الملف الشخصي",
+      "subtitle": "عرض وإدارة معلومات حسابك.",
+      "navigation": {
+        "profile": "الملف الشخصي",
+        "orders": "الطلبات",
+        "wishlist": "قائمة الأمنيات",
+        "reviews": "التقييمات",
+        "payments": "طرق الدفع",
+        "settings": "الإعدادات"
+      },
+      "stats": {
+        "orders": "الطلبات",
+        "wishlist": "قائمة الأمنيات",
+        "reviews": "التقييمات"
+      },
+      "recentActivity": "النشاط الأخير",
+      "accountDetails": "تفاصيل الحساب",
+      "activity": {
+        "orderDelivered": "تم توصيل الطلب",
+        "orderDeliveredDesc": "تم توصيل طلبك رقم #{{orderNumber}}",
+        "reviewPosted": "تم نشر التقييم",
+        "reviewPostedDesc": "قمت بتقييم {{productName}}",
+        "timeAgo": {
+          "hoursAgo": "منذ {{count}} ساعة",
+          "dayAgo": "منذ {{count}} يوم",
+          "daysAgo": "منذ {{count}} أيام"
+        }
+      },
+      "fields": {
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "memberSince": "عضو منذ"
+      },
+      "settings": {
+        "profilePicture": "صورة الملف الشخصي",
+        "changeProfilePicture": "تغيير صورة الملف الشخصي",
+        "uploadDescription": "ارفع صورة جديدة للملف الشخصي. JPG، PNG أو GIF.",
+        "profileInformation": "معلومات الملف الشخصي",
+        "changePassword": "تغيير كلمة المرور",
+        "currentPassword": "كلمة المرور الحالية",
+        "newPassword": "كلمة المرور الجديدة",
+        "confirmPassword": "تأكيد كلمة المرور الجديدة",
+        "notifications": "الإشعارات",
+        "emailNotifications": "إشعارات البريد الإلكتروني",
+        "orderUpdates": "تحديثات الطلبات",
+        "promotions": "العروض والخصومات",
+        "reviews": "تذكيرات التقييم",
+        "updateProfile": "تحديث الملف الشخصي",
+        "changePasswordBtn": "تغيير كلمة المرور",
+        "uploading": "جاري الرفع...",
+        "updating": "جاري التحديث..."
+      },
+      "messages": {
+        "profileUpdated": "تم تحديث الملف الشخصي بنجاح",
+        "profileUpdateFailed": "فشل في تحديث الملف الشخصي",
+        "profilePictureUpdated": "تم تحديث صورة الملف الشخصي بنجاح",
+        "profilePictureFailed": "فشل في تحديث صورة الملف الشخصي",
+        "passwordChanged": "تم تغيير كلمة المرور بنجاح",
+        "passwordChangeFailed": "فشل في تغيير كلمة المرور",
+        "passwordsNotMatch": "كلمات المرور غير متطابقة",
+        "settingsUpdated": "تم تحديث الإعدادات بنجاح",
+        "settingsFailed": "فشل في تحديث الإعدادات"
+      }
+    },
+    "featured": {
+      "title": "مجموعة مميزة",
+      "subtitle": "اكتشفي أبرز القطع المطلوبة",
+      "descriptionFallback": "قطعة خالدة مصنوعة من مواد فاخرة وبعناية بالتفاصيل.",
+      "savePercent": "وفري {{percent}}%",
+      "errors": {
+        "fetchFailed": "فشل في جلب المنتجات المميزة"
+      },
+      "features": {
+        "freeShipping": {
+          "title": "شحن مجاني",
+          "subtitle": "على جميع الطلبات فوق {{amount}}"
+        },
+        "easyReturns": {
+          "title": "إرجاع سهل",
+          "subtitle": "سياسة إرجاع خلال 30 يومًا"
+        }
+      },
+      "related": {
+        "title": "قد يعجبك أيضًا",
+        "subtitle": "بناءً على تفضيلاتك وسجل التسوق",
+        "errors": {
+          "fetchFailed": "فشل في جلب منتجات ذات صلة"
+        },
+        "prevAria": "المنتجات السابقة",
+        "nextAria": "المنتجات التالية"
+      }
+    },
+    "product": {
+      "notFound": "المنتج غير موجود",
+      "badges": {
+        "new": "جديد",
+        "savePercent": "وفري {{percent}}%"
+      },
+      "stock": {
+        "outOfStock": "غير متوفر",
+        "inStockCount": "{{count}} متوفر",
+        "stockFor": "المخزون للون {{color}} / المقاس {{size}}:",
+        "na": "غير متاح"
+      },
+      "color": "اللون",
+      "colorSelected": "تم اختيار {{color}}",
+      "selectSize": "يرجى اختيار المقاس",
+      "sizeGuide": "دليل المقاسات",
+      "selectColor": "يرجى اختيار اللون"
+    },
+    "wishlist": {
+      "title": "المفضلة",
+      "myWishlist": "قائمة المفضلة",
+      "tabs": {
+        "items": "العناصر",
+        "boards": "القوائم"
+      },
+      "empty": {
+        "title": "قائمة المفضلة فارغة",
+        "description": "احفظ العناصر التي تحبها في قائمة المفضلة وارجع إليها في أي وقت.",
+        "page": "ليس لديك أي عناصر محفوظة في قائمة المفضلة."
+      },
+      "actions": {
+        "shopNow": "تسوق الآن",
+        "remove": "إزالة",
+        "addToCart": "أضف إلى السلة"
+      },
+      "buttons": {
+        "add": "أضف إلى المفضلة",
+        "remove": "إزالة من المفضلة"
+      },
+      "toasts": {
+        "added": "تمت الإضافة إلى المفضلة",
+        "removed": "تمت الإزالة من المفضلة",
+        "updateFailed": "فشل تحديث قائمة المفضلة",
+        "loginRequired": "يرجى تسجيل الدخول لإضافة عناصر إلى قائمة المفضلة"
+      }
+      },
+      "auth": {
+        "title": "تسجيل الدخول لإدارة حسابك",
+        "heading": "تسجيل الدخول",
+        "subheading": "قم بتسجيل الدخول لإدارة حسابك",
+        "haveAccount": "ليس لديك حساب؟",
+        "createAccountLink": "أنشئ حساباً جديداً",
+        "email": "البريد الإلكتروني",
+        "password": "كلمة المرور",
+        "rememberMe": "تذكرني",
+        "forgotPassword": "هل نسيت كلمة المرور؟",
+        "signInButton": "تسجيل الدخول",
+        "signingIn": "جارٍ تسجيل الدخول...",
+        "demoCredentials": "بيانات تجريبية",
+        "demoEmail": "البريد: admin@example.com",
+        "demoPassword": "كلمة المرور: admin123",
+  "orContinueWith": "أو المتابعة عبر",
+        "location": {
+          "blockedTitle": "تم حظر الوصول للموقع الجغرافي",
+          "blockedMessage": "تم حظر الوصول للموقع. بعض الميزات مثل اختيار العملة التلقائي قد لا تعمل بشكل صحيح.",
+          "enable": "تمكين الوصول للموقع",
+          "prompt": "يرجى تفعيل خدمات الموقع في إعدادات المتصفح"
+        },
+        "errors": {
+          "loginFailed": "فشل تسجيل الدخول"
+        },
+        "register": {
+          "heading": "أنشئ حسابك",
+          "name": "الاسم الكامل",
+          "email": "البريد الإلكتروني",
+          "password": "كلمة المرور",
+          "confirmPassword": "تأكيد كلمة المرور",
+          "passwordsNoMatch": "كلمتا المرور غير متطابقتين",
+          "passwordTooShort": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل",
+          "creating": "جارٍ إنشاء الحساب...",
+          "create": "إنشاء حساب",
+          "backToLogin": "العودة لتسجيل الدخول",
+          "success": "تم إنشاء الحساب بنجاح!",
+          "failed": "فشل إنشاء الحساب"
+        }
+      }
+  }

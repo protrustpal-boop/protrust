@@ -1,0 +1,13 @@
+{
+  "name": "Fashion & Style",
+  "short_name": "Fashion",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4F46E5",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
