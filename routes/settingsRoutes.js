@@ -197,10 +197,12 @@ router.put('/analytics/facebook-pixel', settingsWriteGuard, async (req, res) => 
 // Update store settings (guarded; can be relaxed via env)
 router.put('/', settingsWriteGuard, async (req, res) => {
   try {
-  console.log('[Settings PUT] Incoming payload:', req.body);
-    let settings = await Settings.findOne();
+    console.log('[Settings PUT] Incoming payload:', req.body);
+    // Always operate on the most recently updated Settings document to avoid splitting state
+    let settings = await Settings.findOne().sort({ updatedAt: -1 });
     if (!settings) {
       settings = new Settings();
+      console.log('[Settings PUT] Created new Settings document');
     }
 
     // Update settings
@@ -319,6 +321,24 @@ router.put('/', settingsWriteGuard, async (req, res) => {
     }
 
     await settings.save();
+
+    // Optional singleton enforcement / pruning of duplicates
+    try {
+      const all = await Settings.find({}, '_id updatedAt').sort({ updatedAt: -1 });
+      if (all.length > 1) {
+        if (process.env.PRUNE_EXTRA_SETTINGS === '1') {
+          const toDelete = all.slice(1).map(d => d._id);
+            if (toDelete.length) {
+              await Settings.deleteMany({ _id: { $in: toDelete } });
+              console.warn(`[Settings] Pruned ${toDelete.length} older Settings documents to enforce singleton.`);
+            }
+        } else {
+          console.warn(`[Settings] Detected ${all.length} Settings documents (expected 1). Set PRUNE_EXTRA_SETTINGS=1 to auto-prune older ones.`);
+        }
+      }
+    } catch (e) {
+      console.warn('[Settings] Duplicate detection/pruning skipped:', e.message);
+    }
 
     // Emit real-time event to notify clients of settings change
     try {
